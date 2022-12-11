@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="baslık">
+        <h1>
+          <span style="color: #ffffff">NET</span
+          ><span style="color: #ff0000">FLIX</span>
+        </h1>
+        <p>
+          <em
+            >Thank you for signing up to Netflix.Tell me more about
+            yourself.</em
+          >
+        </p>
+      </div>
+      <div class="form-container">
+        <form action="" class="form-cntr">
+          <div class="name-cnt">
+            <label class="label-cnt" for="name">Name</label>
+            <br />
+            <input
+              class="input-cnt"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="enter your name"
+            />
+          </div>
+          <div class="name-cnt">
+            <label for="age">Age</label>
+            <br />
+            <input
+              class="input-cnt"
+              type="number"
+              name="age"
+              id="age"
+              placeholder="age"
+            />
+          </div>
+          <div class="name-cnt">
+            <label for="email">Email</label>
+            <br />
+            <input
+              class="input-cnt"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="enter your email"
+            />
+          </div>
+          <div class="name-cnt">
+            <label for="type">Content Type</label>
+            <br />
+            <select class="input-cnt" name="type" id="type">
+              <option value="series">Series</option>
+            </select>
+          </div>
+          <div class="orta1-cnt">
+            <label for="movie">Movie Type</label>
+            <br />
+            <input type="checkbox" name="comedy" id="comedy" checked />
+            <label for="comedy">Comedy</label>
+            <br />
+            <input type="checkbox" name="action" id="action" />
+            <label for="action">Action</label>
+            <br />
+            <input type="checkbox" name="romantic" id="romantic" checked />
+            <label for="romantic">Romantic</label>
+          </div>
+          <div class="orta2-cnt">
+            <label for="gender">Gender</label>
+            <br />
+            <input type="radio" name="male" id="male" />
+            <label for="male">Male</label>
+            <br />
+            <input type="radio" name="female" id="female" checked />
+            <label for="female">Female</label>
+            <br />
+            <input type="radio" name="other" id="other" />
+            <label for="other">Other</label>
+          </div>
+          <div class="name-cnt">
+            <label for="feedback">Feedback</label>
+            <br />
+            <textarea
+              name="feedback"
+              id="feedback"
+              cols="35"
+              rows="5"
+              placeholder="any comment"
+            ></textarea>
+          </div>
+          <div class="buton">
+            <input class="buton1" type="button" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

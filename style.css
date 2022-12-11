@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./background_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: auto;
+  margin: 30px 100px;
+  border-radius: 0px;
+}
+
+.baslık * {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.form-container {
+  margin: 10px auto;
+  color: white;
+  width: 350px;
+  /* margin-top: 30px; */
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.name-cnt {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.form-cntr {
+  padding-top: 10px;
+  padding: 20px 40px;
+}
+
+.input-cnt {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.orta1-cnt {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.orta2-cnt {
+  margin-bottom: 10px;
+}
+
+.buton {
+  text-align: center;
+}
+
+.buton1 {
+  margin: 0;
+  color: white;
+  background-color: red;
+  width: 160px;
+  height: 45px;
+  /* padding: 10px; */
+  border-radius: 50px;
+  border: none;
+}
+
+textarea {
+  resize: none;
+}
+
+h1 {
+  font-family: "Bowlby One SC", cursive;
+  letter-spacing: 0.05em;
+}
+
+p {
+  font-family: "Sorts Mill Goudy", serif;
+  color: #c4c4c4;
+}
